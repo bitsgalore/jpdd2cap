@@ -21,13 +21,13 @@ Most decoders expect the resolution info to be stored in the *Capture Resolution
 
 `jp2In` : input JP2 image;
 
-`jp2Out` : output JP2 image;
+`jp2Out` : output JP2 image.
 
 ### Optional arguments
 
 `-h, --help` : show this help message and exit;
 
-`-v, --version` : show program's version number and exit;
+`-v, --version` : show program's version number and exit.
 
 ### Example
 
