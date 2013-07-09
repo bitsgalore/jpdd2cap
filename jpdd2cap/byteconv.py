@@ -1,7 +1,6 @@
 #
-# This software is copyrighted by the SCAPE Project Consortium.
-# The SCAPE project is co-funded by the European Union under
-# FP7 ICT-2009.4.1 (Grant Agreement number 270137).
+# Copyright (C) 2013, Johan van der Knijff, Koninklijke Bibliotheek -
+#  National Library of the Netherlands
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
