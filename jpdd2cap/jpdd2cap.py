@@ -39,11 +39,10 @@ import imp
 import glob
 import struct
 import argparse
-import xml.etree.ElementTree as ET
 import byteconv as bc
 scriptPath, scriptName = os.path.split(sys.argv[0])
 
-__version__= "0.1.0"
+__version__= "0.1.1"
 
 # Create parser
 parser = argparse.ArgumentParser(
