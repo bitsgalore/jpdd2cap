@@ -198,11 +198,11 @@ def convertResDToResC(file):
         
     else:
         if resolutionBoxExists == False:
-            printWarning("No resolution box found")
+            printWarning("(" + file + ") " + "no resolution box found")
         if displayResolutionBoxExists == False:
-            printWarning("No display resolution box found")
+            printWarning("(" + file + ") " + "no display resolution box found")
         if captureResolutionBoxExists == True:
-            printWarning("Input image already contains capture resolution box")
+            printWarning("(" + file + ") " + "input image already contains capture resolution box")
         
         fileData=""
     
@@ -248,7 +248,7 @@ def main():
         except:
             errorExit("Error writing output image")
     else:
-        sys.stderr.write("No output image created")
+        sys.stderr.write("(" + jp2In + ") " + "no output image created" + "\n")
 
 
 if __name__ == "__main__":
